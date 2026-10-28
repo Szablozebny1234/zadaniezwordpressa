@@ -1,0 +1,450 @@
+/*
+Theme Name: Oceanly Green
+Theme URI: https://scriptstown.com/wordpress-themes/oceanly-green/
+Author: ScriptsTown
+Author URI: https://scriptstown.com/
+Description: Oceanly Green is a clean, fresh, and thoughtfully designed WordPress theme for blogging, news sites, educational platforms, and eco-focused businesses. Built with a nature-inspired color palette, dark green vibrant tones, balanced typography, and a strong content-first approach, it delivers a smooth and engaging reading experience where articles, updates, and short-form formats remain the central focus. Lightweight and optimized for performance, the theme is a great choice for editors, professional publishers, academic writers, freelancers, schools, institutes, environmental organizations, non-profits, wildlife activists, gardening community, or brands promoting sustainable and eco-friendly products. It also fits digital marketing, consultancy, company, corporate, agency, landing page, and content-driven sites seeking a polished and magnificent online presence. A key highlight is the powerful spotlight section, crafted to showcase featured content or posts in a visually appealing grid with extensive customization options for column width, height, and visibility of category labels, dates and, post titles. Overlay can stay visible or appear on hover, creating both minimal and magazine-style presentations. Create stunning post grids of event photography images, perfect for visual storytelling and creative projects. Whether you are featuring breaking news, editorial selections, travel destinations, fashion or technology trends, science research, food recipes, artist or wedding portfolios, personal lifestyle guides, movies, anime, manga, or gaming insights, the spotlight grid ensures important stories never go astray and receive the attention they deserve. Display branding as a centered logo, title, or tagline, or aligned left or right to suit your preferred layout. A semi-transparent multi-level dropdown menu allows clear, accessible navigation across desktop, tablet, and mobile devices. More features include customizable header with a search bar and subtle parallax background effect, footer widget areas, RTL support, gallery layouts, compatibility with Elementor builder and Jetpack Infinite Scroll, and a sticky sidebar for ads, banners, blocks, or widgets. Oceanly Green provides a solid foundation for blogs, journals, newsportals, magazines, newspapers, and a wide variety of content-rich websites, making it an excellent green theme for bloggers and creators.
+Template: oceanly
+Version: 1.0.6
+Requires at least: 5.3
+Tested up to: 7.1
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: oceanly-green
+Tags: blog, education, news, grid-layout, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Typography
+# Colors
+# Cards
+# Branding
+# Hero Header
+# Navigation
+# Breadcrumbs
+# Top Posts
+# Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #3a3a3a;
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title {
+	font-family: 'Source Serif 4', 'Cambria', sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+a,
+.sticky.post .header-thumbnail-wrap>.svg-icon,
+.entry-header .entry-title a:hover,
+.entry-header .entry-title a:focus,
+.entry-header .entry-title a:active,
+.comment-meta .comment-author .fn a:hover,
+.comment-meta .comment-author .fn a:focus,
+.comment-meta .comment-author .fn a:active,
+.social-navigation a .svg-icon {
+	color: #06602f;
+}
+
+.sticky.post.has-post-thumbnail .header-thumbnail-wrap .entry-header::after,
+.sticky.post .header-thumbnail-wrap::after,
+.tag-links a:hover,
+.tag-links a:focus,
+.tag-links a:active,
+.navigation .nav-links .current,
+.navigation .nav-links a:hover,
+.navigation .nav-links a:focus,
+.navigation .nav-links a:active,
+.navigation.post-navigation .nav-links a:hover,
+.navigation.post-navigation .nav-links a:focus,
+.navigation.post-navigation .nav-links a:active,
+.widget-title::after,
+.widget_block h1:first-child::after,
+.widget_block h2:first-child::after,
+.widget_block h3:first-child::after,
+.wp-block-tag-cloud a:hover,
+.wp-block-tag-cloud a:focus,
+.wp-block-tag-cloud a:active,
+.widget .tagcloud a:hover,
+.widget .tagcloud a:focus,
+.widget .tagcloud a:active,
+.social-navigation a:hover .svg-icon,
+.social-navigation a:focus .svg-icon,
+.social-navigation a:active .svg-icon,
+.back-to-top:hover,
+.back-to-top:focus {
+	background-color: #06602f;
+}
+
+.sticky.post .header-thumbnail-wrap,
+.comment-list .comment.bypostauthor>.comment-body,
+.page-title {
+	border-left-color: #06602f;
+}
+
+.back-to-top:focus {
+	box-shadow: 0px 0px 5px #06602f;
+}
+
+/*--------------------------------------------------------------
+# Cards
+--------------------------------------------------------------*/
+.ol-cols {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+
+.ol-cols>* {
+	flex: 1 1 100%;
+	display: flex;
+}
+
+.ol-cols-shrink>* {
+	flex-grow: 0;
+}
+
+@media screen and (min-width: 768px) {
+	.ol-cols>* {
+		flex-basis: calc((100% - 1.5rem) / 2);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.ol-cols>* {
+		flex-basis: calc((100% - 3rem) / 3);
+	}
+
+	.ol-related-posts .ol-cols>* {
+		flex-basis: calc((100% - 1.5rem) / 2);
+	}
+}
+
+.ol-card {
+	flex-grow: 1;
+	display: flex;
+	min-width: 250px;
+	font-size: .85em;
+	background: #fff;
+	border: 1px solid #eee;
+	box-shadow: 1px 2px 16px 0px rgb(0 0 0 / 6%);
+}
+
+.ol-card>.ol-card-img {
+	flex: 0 1 27%;
+	overflow: hidden;
+}
+
+.ol-card>.ol-card-body {
+	flex: 1 1 73%;
+	align-self: center;
+}
+
+.ol-card>.ol-card-img a:hover img {
+	transform: scale(1.1);
+}
+
+.ol-card>.ol-card-img img {
+	display: block;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	transition: .5s;
+}
+
+.ol-card>.ol-card-body {
+	padding: 1rem .65rem 1rem 1.3rem;
+}
+
+.ol-card-title,
+.ol-card-label,
+.ol-card-date {
+	padding: .27em 0;
+}
+
+.ol-card-title,
+.ol-card-label {
+	font-weight: 600;
+}
+
+.ol-card-title a {
+	color: #2e2e2e;
+	transition: .25s color;
+}
+
+.ol-card-title a:hover,
+.ol-card-title a:focus,
+.ol-card-title a:active {
+	color: #06602f
+}
+
+.ol-card-date {
+	font-size: .9em;
+	color: #a1a1a1;
+}
+
+.ol-card-title {
+	position: relative;
+	word-break: break-word;
+}
+
+.ol-card-title a::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	border-bottom: 2px solid #06602f;
+	width: 0%;
+	transition: .5s;
+}
+
+.ol-card-body:hover .ol-card-title a::after {
+	width: 35%;
+}
+
+.ol-related-posts {
+	margin-bottom: 2em;
+}
+
+.ol-related-posts-title {
+	margin-top: 0;
+	margin-bottom: .5em;
+	padding: 10px 14px;
+	border: 1px solid #efefef;
+	font-size: 1.35em;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 1px 2px 16px 0px rgba(0, 0, 0, .08);
+}
+
+/*--------------------------------------------------------------
+# Branding
+--------------------------------------------------------------*/
+.site-title a,
+.site-title a:hover,
+.site-title a:focus,
+.site-title a:active {
+	color: #0e2a1a;
+}
+
+.site-description {
+	color: #236940;
+}
+
+/*--------------------------------------------------------------
+# Hero Header
+--------------------------------------------------------------*/
+.site-hero-header {
+	background-color: #e5e5e5;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+.main-navigation ul {
+	background-color: rgba(10, 88, 43, .74);
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.site-hero-header .breadcrumbs {
+	background-color: rgba(10, 88, 43, .6);
+}
+
+/*--------------------------------------------------------------
+# Top Posts
+--------------------------------------------------------------*/
+.top-posts-wrap {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.top-posts {
+	--ocly-top-post-min-col-w: 265px;
+	--ocly-top-post-auto-w: auto-fill;
+	--ocly-top-post-col-h: 240px;
+	--ocly-top-post-col-xs: 240px;
+	--ocly-top-post-col-sm: 300px;
+	--ocly-top-post-col-md: 230px;
+	--ocly-top-post-col-lg: 250px;
+	--ocly-top-post-col-xl: 215px;
+	--ocly-top-post-label-bg-color: rgba(10, 88, 43, .8);
+	--ocly-top-post-label-color: #fff;
+	--ocly-top-post-overlay-bg-color: rgba(0, 0, 0, .45);
+	--ocly-top-post-overlay-color: #fff;
+
+	display: grid;
+	grid-template-columns: repeat(var(--ocly-top-post-auto-w, auto-fill), minmax(min(var(--ocly-top-post-min-col-w, 265px), 100%), 1fr));
+	gap: 1.5rem;
+}
+
+.top-post {
+	--ocly-top-post-col-h: var(--ocly-top-post-col-xs, 240px);
+
+	position: relative;
+	overflow: hidden;
+	height: var(--ocly-top-post-col-h, 240px);
+	font-size: .85em;
+	border-radius: .85rem;
+	background-color: #efefef;
+}
+
+@media screen and (min-width: 450px) {
+	.top-post {
+		--ocly-top-post-col-h: var(--ocly-top-post-col-sm, 300px);
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.top-post {
+		--ocly-top-post-col-h: var(--ocly-top-post-col-md, 230px);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.top-post {
+		--ocly-top-post-col-h: var(--ocly-top-post-col-lg, 250px);
+	}
+}
+
+@media screen and (min-width: 1360px) {
+	.top-post {
+		--ocly-top-post-col-h: var(--ocly-top-post-col-xl, 215px);
+	}
+}
+
+.top-posts-hover .top-post-content {
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.top-posts-hover .top-post:hover .top-post-content,
+.top-posts-hover .top-post:focus-within .top-post-content {
+	pointer-events: auto;
+	opacity: 1;
+}
+
+.top-post a {
+	display: inline-block;
+}
+
+.top-post a,
+.top-post a:hover,
+.top-post a:focus,
+.top-post a:active {
+	color: var(--ocly-top-post-overlay-color, #fff);
+}
+
+.top-post .top-post-img-link,
+.top-post .top-post-img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.top-post .top-post-img {
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.top-post-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.top-post-overlay {
+	padding: .4rem 1rem;
+	background: var(--ocly-top-post-overlay-bg-color, rgba(0, 0, 0, .45));
+	color: var(--ocly-top-post-overlay-color, #fff);
+}
+
+.top-post-content .top-post-title,
+.top-post-content .top-post-date {
+	padding: .27em 0;
+}
+
+.top-post-title,
+.top-post-term {
+	font-weight: 600;
+}
+
+.top-post-title {
+	position: relative;
+	word-break: break-word;
+	word-break: break-word;
+}
+
+.top-post-title a::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	border-bottom: 2px solid var(--ocly-top-post-overlay-color, #fff);
+	width: 0%;
+	transition: .5s;
+}
+
+.top-post:hover .top-post-title a::after {
+	width: 35%;
+}
+
+.top-post-content .top-post-date {
+	font-size: .9em;
+}
+
+.top-post-content .top-post-term {
+	padding: 1px .75rem 1px .75rem;
+	font-size: .85em;
+}
+
+.top-post-content .top-post-term a {
+	display: inline-block;
+	padding: .2em .8em;
+	border-radius: .85rem;
+	background: var(--ocly-top-post-label-bg-color, rgba(38, 84, 224, .8));
+}
+
+.top-post-term a,
+.top-post-term a:hover,
+.top-post-term a:focus,
+.top-post-term a:active {
+	color: var(--ocly-top-post-label-color, #fff);
+}
+
+.top-post-term a:focus {
+	outline-width: 2px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer-widgets {
+	background-color: #3b7955;
+}

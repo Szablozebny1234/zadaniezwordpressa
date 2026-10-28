@@ -1,0 +1,27 @@
+.editor-styles-wrapper {
+	background: #fff;
+	color: initial;
+}
+
+.editor-styles-wrapper {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	--wp--style--block-gap: 2em;
+}
+
+.editor-styles-wrapper p {
+	line-height: 1.8;
+}
+
+.editor-post-title__block {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	font-size: 2.5em;
+	font-weight: 800;
+}
+
+.admin-color-modern .edit-post-meta-boxes-area .metabox-location-side .postbox .oceanly-metabox-field input[type=checkbox]:checked {
+	background: var(--wp-admin-theme-color);
+	border-color: var(--wp-admin-theme-color);
+}

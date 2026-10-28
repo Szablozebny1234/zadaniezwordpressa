@@ -1,0 +1,1025 @@
+# Copyright (C) 2026 ScriptsTown
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Oceanly Green 1.0.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/oceanly-green\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-08T10:49:06+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: oceanly-green\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Oceanly Green"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://scriptstown.com/wordpress-themes/oceanly-green/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Oceanly Green is a clean, fresh, and thoughtfully designed WordPress theme for blogging, news sites, educational platforms, and eco-focused businesses. Built with a nature-inspired color palette, dark green vibrant tones, balanced typography, and a strong content-first approach, it delivers a smooth and engaging reading experience where articles, updates, and short-form formats remain the central focus. Lightweight and optimized for performance, the theme is a great choice for editors, professional publishers, academic writers, freelancers, schools, institutes, environmental organizations, non-profits, wildlife activists, gardening community, or brands promoting sustainable and eco-friendly products. It also fits digital marketing, consultancy, company, corporate, agency, landing page, and content-driven sites seeking a polished and magnificent online presence. A key highlight is the powerful spotlight section, crafted to showcase featured content or posts in a visually appealing grid with extensive customization options for column width, height, and visibility of category labels, dates and, post titles. Overlay can stay visible or appear on hover, creating both minimal and magazine-style presentations. Create stunning post grids of event photography images, perfect for visual storytelling and creative projects. Whether you are featuring breaking news, editorial selections, travel destinations, fashion or technology trends, science research, food recipes, artist or wedding portfolios, personal lifestyle guides, movies, anime, manga, or gaming insights, the spotlight grid ensures important stories never go astray and receive the attention they deserve. Display branding as a centered logo, title, or tagline, or aligned left or right to suit your preferred layout. A semi-transparent multi-level dropdown menu allows clear, accessible navigation across desktop, tablet, and mobile devices. More features include customizable header with a search bar and subtle parallax background effect, footer widget areas, RTL support, gallery layouts, compatibility with Elementor builder and Jetpack Infinite Scroll, and a sticky sidebar for ads, banners, blocks, or widgets. Oceanly Green provides a solid foundation for blogs, journals, newsportals, magazines, newspapers, and a wide variety of content-rich websites, making it an excellent green theme for bloggers and creators."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "ScriptsTown"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://scriptstown.com/"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:40
+msgid "Related Posts"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:41
+msgid "You can configure the related posts options in here."
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:67
+msgid "Enable Related Posts"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:101
+msgid "Related Posts Title"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:102
+msgid "You can change the heading of the related posts that are shown below the single post content."
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:137
+msgid "Categories"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:138
+msgid "Tags"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:140
+msgid "Related Posts Based On"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:141
+msgid "Select the source for related posts to display. Default: Categories"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:176
+msgid "Related Posts Count"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:177
+msgid "Set the number of related posts. Default: 4"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:212
+#: inc/classes/class-oceanly-green-top-posts.php:452
+msgid "Latest First"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:213
+#: inc/classes/class-oceanly-green-top-posts.php:453
+msgid "Oldest First"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:215
+msgid "Related Posts Order"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:216
+#: inc/classes/class-oceanly-green-top-posts.php:456
+msgid "Designates the ascending or descending order. Default: Latest First"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:251
+#: inc/classes/class-oceanly-green-top-posts.php:491
+msgid "Random Order"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:252
+#: inc/classes/class-oceanly-green-top-posts.php:492
+msgid "Post Date"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:253
+#: inc/classes/class-oceanly-green-top-posts.php:493
+msgid "Last Modified Date"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:255
+msgid "Related Posts Order By"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:256
+msgid "Sort retrieved related posts by parameter. Default: Random Order"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:290
+#: inc/classes/class-oceanly-green-top-posts.php:564
+msgid "Show Post Label"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:324
+#: inc/classes/class-oceanly-green-top-posts.php:598
+msgid "Show Post Date"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:358
+msgid "Fill Available Space"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:359
+msgid "Fill any available space by the columns in a row."
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:394
+msgid "You may also like"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:427
+msgctxt "Related Posts Count"
+msgid "1"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:428
+msgctxt "Related Posts Count"
+msgid "2"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:429
+msgctxt "Related Posts Count"
+msgid "3"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:430
+msgctxt "Related Posts Count"
+msgid "4"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:431
+msgctxt "Related Posts Count"
+msgid "5"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:432
+msgctxt "Related Posts Count"
+msgid "6"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:433
+msgctxt "Related Posts Count"
+msgid "7"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:434
+msgctxt "Related Posts Count"
+msgid "8"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:435
+msgctxt "Related Posts Count"
+msgid "9"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:436
+msgctxt "Related Posts Count"
+msgid "10"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:437
+msgctxt "Related Posts Count"
+msgid "11"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-related-posts.php:438
+msgctxt "Related Posts Count"
+msgid "12"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:94
+#: inc/welcome-page.php:135
+msgid "Spotlight Posts"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:95
+msgid "You can configure the spotlight posts options in here."
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:121
+msgid "Enable Spotlight Posts"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:162
+msgid "Show in Front Page"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:183
+msgid "Show in Blog Page"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:204
+msgid "Show in Archive Pages"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:225
+msgid "Show in Posts"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:246
+msgid "Show in Pages"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:272
+msgid "All Posts"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:273
+msgid "Posts from Selected Categories"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:274
+msgid "Posts from Selected Tags"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:276
+msgid "Spotlight Posts Source"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:277
+msgid "Default: All Posts"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:312
+msgid "Spotlight Posts Categories"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:313
+msgid "Select the categories for the spotlight posts. You can select multiple categories by holding the CTRL key."
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:364
+msgid "Spotlight Posts Tags"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:365
+msgid "Select the tags for the spotlight posts. You can select multiple tags by holding the CTRL key."
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:416
+msgid "Spotlight Posts Count"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:417
+msgid "Set the number of spotlight posts. Default: 4"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:455
+msgid "Spotlight Posts Order"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:495
+msgid "Spotlight Posts Order By"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:496
+msgid "Sort retrieved spotlight posts by parameter. Default: Random Order"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:530
+msgid "Show Post Title"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:632
+msgid "Show Content on Hover Only"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:633
+msgid "Show content overlay only when focusing or hovering over a post."
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:752
+msgctxt "Spotlight Posts Count"
+msgid "1"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:753
+msgctxt "Spotlight Posts Count"
+msgid "2"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:754
+msgctxt "Spotlight Posts Count"
+msgid "3"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:755
+msgctxt "Spotlight Posts Count"
+msgid "4"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:756
+msgctxt "Spotlight Posts Count"
+msgid "5"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:757
+msgctxt "Spotlight Posts Count"
+msgid "6"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:758
+msgctxt "Spotlight Posts Count"
+msgid "7"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:759
+msgctxt "Spotlight Posts Count"
+msgid "8"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:760
+msgctxt "Spotlight Posts Count"
+msgid "9"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:761
+msgctxt "Spotlight Posts Count"
+msgid "10"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:762
+msgctxt "Spotlight Posts Count"
+msgid "11"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:763
+msgctxt "Spotlight Posts Count"
+msgid "12"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:764
+msgctxt "Spotlight Posts Count"
+msgid "13"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:765
+msgctxt "Spotlight Posts Count"
+msgid "14"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:766
+msgctxt "Spotlight Posts Count"
+msgid "15"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:767
+msgctxt "Spotlight Posts Count"
+msgid "16"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:768
+msgctxt "Spotlight Posts Count"
+msgid "17"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:769
+msgctxt "Spotlight Posts Count"
+msgid "18"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:770
+msgctxt "Spotlight Posts Count"
+msgid "19"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:771
+msgctxt "Spotlight Posts Count"
+msgid "20"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:772
+msgctxt "Spotlight Posts Count"
+msgid "21"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:773
+msgctxt "Spotlight Posts Count"
+msgid "22"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:774
+msgctxt "Spotlight Posts Count"
+msgid "23"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:775
+msgctxt "Spotlight Posts Count"
+msgid "24"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:776
+msgctxt "Spotlight Posts Count"
+msgid "25"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:777
+msgctxt "Spotlight Posts Count"
+msgid "26"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:778
+msgctxt "Spotlight Posts Count"
+msgid "27"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:779
+msgctxt "Spotlight Posts Count"
+msgid "28"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:780
+msgctxt "Spotlight Posts Count"
+msgid "29"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:781
+msgctxt "Spotlight Posts Count"
+msgid "30"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:782
+msgctxt "Spotlight Posts Count"
+msgid "31"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:783
+msgctxt "Spotlight Posts Count"
+msgid "32"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:784
+msgctxt "Spotlight Posts Count"
+msgid "33"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:785
+msgctxt "Spotlight Posts Count"
+msgid "34"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:786
+msgctxt "Spotlight Posts Count"
+msgid "35"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:787
+msgctxt "Spotlight Posts Count"
+msgid "36"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:788
+msgctxt "Spotlight Posts Count"
+msgid "37"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:789
+msgctxt "Spotlight Posts Count"
+msgid "38"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:790
+msgctxt "Spotlight Posts Count"
+msgid "39"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:791
+msgctxt "Spotlight Posts Count"
+msgid "40"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:792
+msgctxt "Spotlight Posts Count"
+msgid "41"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:793
+msgctxt "Spotlight Posts Count"
+msgid "42"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:794
+msgctxt "Spotlight Posts Count"
+msgid "43"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:795
+msgctxt "Spotlight Posts Count"
+msgid "44"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:796
+msgctxt "Spotlight Posts Count"
+msgid "45"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:797
+msgctxt "Spotlight Posts Count"
+msgid "46"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:798
+msgctxt "Spotlight Posts Count"
+msgid "47"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:799
+msgctxt "Spotlight Posts Count"
+msgid "48"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:800
+msgctxt "Spotlight Posts Count"
+msgid "49"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:801
+msgctxt "Spotlight Posts Count"
+msgid "50"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:802
+msgctxt "Spotlight Posts Count"
+msgid "51"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:803
+msgctxt "Spotlight Posts Count"
+msgid "52"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:804
+msgctxt "Spotlight Posts Count"
+msgid "53"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:805
+msgctxt "Spotlight Posts Count"
+msgid "54"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:806
+msgctxt "Spotlight Posts Count"
+msgid "55"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:807
+msgctxt "Spotlight Posts Count"
+msgid "56"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:808
+msgctxt "Spotlight Posts Count"
+msgid "57"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:809
+msgctxt "Spotlight Posts Count"
+msgid "58"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:810
+msgctxt "Spotlight Posts Count"
+msgid "59"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:811
+msgctxt "Spotlight Posts Count"
+msgid "60"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:812
+msgctxt "Spotlight Posts Count"
+msgid "61"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:813
+msgctxt "Spotlight Posts Count"
+msgid "62"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:814
+msgctxt "Spotlight Posts Count"
+msgid "63"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:815
+msgctxt "Spotlight Posts Count"
+msgid "64"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:816
+msgctxt "Spotlight Posts Count"
+msgid "65"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:817
+msgctxt "Spotlight Posts Count"
+msgid "66"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:818
+msgctxt "Spotlight Posts Count"
+msgid "67"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:819
+msgctxt "Spotlight Posts Count"
+msgid "68"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:820
+msgctxt "Spotlight Posts Count"
+msgid "69"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:821
+msgctxt "Spotlight Posts Count"
+msgid "70"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:822
+msgctxt "Spotlight Posts Count"
+msgid "71"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:823
+msgctxt "Spotlight Posts Count"
+msgid "72"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:824
+msgctxt "Spotlight Posts Count"
+msgid "73"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:825
+msgctxt "Spotlight Posts Count"
+msgid "74"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:826
+msgctxt "Spotlight Posts Count"
+msgid "75"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:915
+msgctxt "Spotlight posts title font weight"
+msgid "Normal"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:916
+msgctxt "Spotlight posts title font weight"
+msgid "Bold"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:918
+msgid "Spotlight Posts Title Font Weight"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:919
+#: inc/classes/class-oceanly-green-top-posts.php:949
+msgid "Default: Bold"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:945
+msgctxt "Spotlight posts label font weight"
+msgid "Normal"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:946
+msgctxt "Spotlight posts label font weight"
+msgid "Bold"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:948
+msgid "Spotlight Posts Label Font Weight"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:979
+msgid "Minimum Column Width (px)"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:980
+msgid "Columns automatically increase or decrease in number based on this minimum width. Smaller values allow more columns; larger values allow fewer columns. Use numeric values like 200, 300, 400, etc. Default: 265"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1006
+msgid "Auto Fill"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1007
+msgid "Auto Fit"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1009
+msgid "Column Fill Mode"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1011
+msgid "Choose how columns fill available space.<br><strong>Auto Fill:</strong> Preserve empty column tracks when space is available.<br><strong>Auto Fit:</strong> Stretch columns to fill extra space.<br>Default: Auto Fill"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1046
+msgid "Column Height (px) (Extra Large Screen)"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1047
+msgid "Default: 215"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1077
+msgid "Column Height (px) (Large Screen)"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1078
+msgid "Default: 250"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1108
+msgid "Column Height (px) (Medium Screen)"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1109
+msgid "Default: 230"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1139
+msgid "Column Height (px) (Small Screen)"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1140
+msgid "Default: 300"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1170
+msgid "Column Height (px) (Extra Small Screen)"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1171
+msgid "Default: 240"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1197
+msgid "Cover"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1198
+msgid "Contain"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1200
+msgid "Spotlight Posts Image Fit"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-top-posts.php:1202
+msgid "<strong>Cover</strong> fills the entire area and may crop the image. <strong>Contain</strong> displays the full image but may not completely fill the available space.<br>Default: Cover"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-upsell.php:36
+#: inc/classes/class-oceanly-green-upsell.php:52
+msgid "Learn More"
+msgstr ""
+
+#: inc/classes/class-oceanly-green-upsell.php:37
+msgid "Premium version also includes various color options for spotlight posts, top header bar, accent color, RGBA colors, fonts selector, multiple header and footer blocks."
+msgstr ""
+
+#: inc/classes/class-oceanly-green-upsell.php:53
+msgid "Premium version includes top header bar, accent color, RGBA colors, fonts selector, multiple header and footer blocks."
+msgstr ""
+
+#. translators: %s: theme version number
+#: inc/welcome-page.php:23
+#, php-format
+msgctxt "menu page heading"
+msgid "Oceanly Green <span>Version %s</span>"
+msgstr ""
+
+#: inc/welcome-page.php:30
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: inc/welcome-page.php:37
+msgid "Customize Theme"
+msgstr ""
+
+#: inc/welcome-page.php:39
+msgid "You can customize the theme using the theme options available in the customizer."
+msgstr ""
+
+#: inc/welcome-page.php:43
+msgid "Theme Options"
+msgstr ""
+
+#: inc/welcome-page.php:48
+#: inc/welcome-page.php:55
+msgid "Header Image"
+msgstr ""
+
+#: inc/welcome-page.php:50
+msgid "You can change the header image in the Customizer > Header Image. Also, you can change the header background color from Customizer > Colors. For header image options, refer to Customizer > Hero Header."
+msgstr ""
+
+#: inc/welcome-page.php:54
+msgid "Hero Header"
+msgstr ""
+
+#: inc/welcome-page.php:60
+#: inc/welcome-page.php:66
+msgid "Menus"
+msgstr ""
+
+#: inc/welcome-page.php:62
+msgid "You can create a menu and assign it to a menu location. Oceanly Green comes with three menu locations which include primary menu, footer menu, and social links menu."
+msgstr ""
+
+#: inc/welcome-page.php:71
+msgid "Premium Version"
+msgstr ""
+
+#: inc/welcome-page.php:73
+msgid "Oceanly Premium comes with additional features:"
+msgstr ""
+
+#: inc/welcome-page.php:77
+msgid "Top Header Bar"
+msgstr ""
+
+#: inc/welcome-page.php:78
+msgid "Header Social Links"
+msgstr ""
+
+#: inc/welcome-page.php:79
+msgid "Header Top Menu"
+msgstr ""
+
+#: inc/welcome-page.php:80
+msgid "Multiple Block Areas"
+msgstr ""
+
+#: inc/welcome-page.php:81
+msgid "Spotlight Color Options"
+msgstr ""
+
+#: inc/welcome-page.php:82
+msgid "6 Footer Widgets Locations"
+msgstr ""
+
+#: inc/welcome-page.php:85
+msgid "Custom Accent Colors"
+msgstr ""
+
+#: inc/welcome-page.php:86
+msgid "Custom Link Color"
+msgstr ""
+
+#: inc/welcome-page.php:87
+msgid "Custom Menu Color"
+msgstr ""
+
+#: inc/welcome-page.php:88
+msgid "Custom Breadcrumbs Color"
+msgstr ""
+
+#: inc/welcome-page.php:89
+msgid "Multiple Google Fonts"
+msgstr ""
+
+#: inc/welcome-page.php:90
+msgid "Advanced Featured Posts"
+msgstr ""
+
+#: inc/welcome-page.php:93
+msgid "Removable Footer Credit"
+msgstr ""
+
+#: inc/welcome-page.php:94
+msgid "Custom Header Height"
+msgstr ""
+
+#: inc/welcome-page.php:95
+msgid "RGBA Color Options"
+msgstr ""
+
+#: inc/welcome-page.php:96
+msgid "Dedicated Support"
+msgstr ""
+
+#: inc/welcome-page.php:97
+msgid "Advanced Theme Options"
+msgstr ""
+
+#: inc/welcome-page.php:98
+msgid "Unlimited Color Options"
+msgstr ""
+
+#: inc/welcome-page.php:101
+msgid "Get Premium"
+msgstr ""
+
+#: inc/welcome-page.php:106
+msgid "Colors & Background"
+msgstr ""
+
+#: inc/welcome-page.php:108
+msgid "You can customize the body background image in the Customizer > Background Image. Also, you can change the background color from Customizer > Colors."
+msgstr ""
+
+#: inc/welcome-page.php:112
+msgid "Theme Colors"
+msgstr ""
+
+#: inc/welcome-page.php:113
+msgid "Background Image"
+msgstr ""
+
+#: inc/welcome-page.php:118
+msgid "Theme Widgets"
+msgstr ""
+
+#: inc/welcome-page.php:120
+msgid "You can drag and drop widgets to the widget area. Oceanly Green comes with 4 widgets area locations which include a main sidebar and three locations for footer widgets."
+msgstr ""
+
+#: inc/welcome-page.php:124
+msgid "Widgets"
+msgstr ""
+
+#: inc/welcome-page.php:129
+msgid "Spotlight Posts Options"
+msgstr ""
+
+#: inc/welcome-page.php:131
+msgid "You can configure the top spotlight posts area in the Customizer > Spotlight Posts."
+msgstr ""
+
+#: inc/welcome-page.php:140
+msgid "Header Block Area"
+msgstr ""
+
+#: inc/welcome-page.php:142
+msgid "You can enable the header block area by creating a block in the reusable block manager. Then select this block in the Customizer > Header Block Area. Oceanly Green comes with 1 header block area."
+msgstr ""
+
+#: inc/welcome-page.php:146
+msgid "Header Blocks"
+msgstr ""
+
+#: inc/welcome-page.php:147
+msgid "Reusable Blocks"
+msgstr ""
+
+#: inc/welcome-page.php:162
+msgctxt "page title"
+msgid "Oceanly Green"
+msgstr ""
+
+#: inc/welcome-page.php:163
+msgctxt "menu title"
+msgid "Oceanly Green"
+msgstr ""
+
+#. translators: %s: Welcome page link.
+#: inc/welcome-page.php:185
+#, php-format
+msgid "Welcome! Thank you for choosing Oceanly Green theme. To get started, visit our <a href=\"%s\">welcome page</a>."
+msgstr ""
+
+#: inc/welcome-page.php:194
+msgid "Get started with Oceanly Green"
+msgstr ""
+
+#: single.php:28
+msgid "Previous Post:"
+msgstr ""
+
+#: single.php:30
+msgid "Next Post:"
+msgstr ""
+
+#. translators: 1: theme name, 2: theme shop URL
+#: template-parts/footer/copyright.php:25
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr ""
